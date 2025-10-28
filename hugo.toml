@@ -1,0 +1,71 @@
+baseurl = "https://www.dunanes.com"
+title = "Dunanes"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 10
+
+[services]
+[services.disqus]
+shortname = ""
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Daniel Nunes"
+  info = "Python Developer & Machine Learning Engineer"
+  description = "Personal portfolio and blog of Daniel Nunes"
+  keywords = "daniel nunes, portfolio, blog, developer, machine learning, ai"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "img/favicon.svg"
+  favicon_32 = "img/favicon-32x32.png"
+  favicon_16 = "img/favicon-16x16.png"
+
+  since = 2025
+
+  enableTwemoji = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/dunanes/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 2
+  url = "https://www.instagram.com/dunanes_/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/dunanes/"
+
+# Menu links
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 2
+#  url = "about/"
